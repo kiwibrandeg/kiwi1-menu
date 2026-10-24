@@ -13,7 +13,7 @@
   html{ scroll-behavior:smooth; }
 
   body{
-    font-family:'Tajawal', sans-serif;
+    font-family:'Tajawal', Arial, sans-serif;
     color:var(--ink);
     background: linear-gradient(160deg, var(--g1) 0%, var(--g2) 22%, var(--g3) 50%, var(--g4) 75%, var(--g5) 100%);
     background-attachment: fixed;
@@ -69,7 +69,7 @@
   }
 
   .brand-name{
-    font-family:'Baloo 2', sans-serif;
+    font-family:'Baloo 2', Arial, sans-serif;
     font-weight:800;
     font-size:44px;
     color:#FFFFFF;
@@ -283,7 +283,7 @@
   }
 
   .section-title{
-    font-family:'Baloo 2', sans-serif;
+    font-family:'Baloo 2', Arial, sans-serif;
     font-weight:700;
     font-size:23px;
     color:#FFFFFF;
@@ -382,7 +382,7 @@
   }
 
   .item-price{
-    font-family:'Baloo 2', sans-serif;
+    font-family:'Baloo 2', Arial, sans-serif;
     font-weight:700;
     font-size:24px;
     color:var(--g3);
@@ -391,7 +391,7 @@
   }
   .item-price small{
     font-size:13px;
-    font-family:'Tajawal', sans-serif;
+    font-family:'Tajawal', Arial, sans-serif;
     font-weight:500;
     color:rgba(13,59,46,0.5);
   }
@@ -451,7 +451,7 @@
     filter: drop-shadow(0 4px 10px rgba(13,59,46,0.2));
   }
   .footer-brand{
-    font-family:'Baloo 2', sans-serif;
+    font-family:'Baloo 2', Arial, sans-serif;
     font-weight:700;
     font-size:19px;
     color:#FFFFFF;
@@ -624,7 +624,7 @@
   }
 
   /* قائمة Excel: عناصر حقيقية مصنفة حسب القسم والقسم الفرعي */
-  .nav-pills .pill{ font-family:'Tajawal', sans-serif; appearance:none; }
+  .nav-pills .pill{ font-family:'Tajawal', Arial, sans-serif; appearance:none; }
   .subsection{ margin-top:26px; overflow-anchor:none; }
   .subsection:first-of-type{ margin-top:0; }
   .subsection-head{ width:calc(100% - 8px); display:flex; align-items:center; gap:10px; margin:0 4px; padding:10px 12px; border:0; border-right:3px solid rgba(255,255,255,.88); background:rgba(13,59,46,.10); border-radius:12px; color:#FFFFFF; font-family:'Tajawal',sans-serif; text-align:right; cursor:pointer; transition:background .2s ease, transform .2s ease; }
