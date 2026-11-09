@@ -1254,3 +1254,31 @@ body::after{
     opacity:.065;
   }
 }
+
+/* ===== Kiwi Winter Layer: طابع شتوي خفيف مع الحفاظ على الهوية الأصلية ===== */
+body{
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(255,255,255,.42) 0 1.4px, transparent 1.8px),
+    radial-gradient(circle at 78% 34%, rgba(255,255,255,.30) 0 1.2px, transparent 1.7px),
+    radial-gradient(circle at 38% 72%, rgba(255,255,255,.26) 0 1.5px, transparent 2px),
+    linear-gradient(160deg, rgba(224,247,255,.13), rgba(187,231,247,.10)),
+    linear-gradient(160deg, var(--g1) 0%, var(--g2) 22%, var(--g3) 50%, var(--g4) 75%, var(--g5) 100%);
+  background-size: 170px 210px, 230px 260px, 290px 320px, auto, auto;
+  background-position: 0 0, 70px 35px, 120px 80px, 0 0, 0 0;
+  background-attachment: fixed;
+}
+body::after{
+  opacity:.055;
+  filter:saturate(.82) blur(1.4px);
+}
+.nav-pills .pill,
+.section-head,
+.subsection-head,
+.item-card,
+.search-wrap,
+.subsection-description{
+  border-color:rgba(226,249,255,.34);
+}
+@media (prefers-reduced-motion: reduce){
+  body{background-attachment:scroll;}
+}
