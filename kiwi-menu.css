@@ -1282,3 +1282,11 @@ body::after{
 @media (prefers-reduced-motion: reduce){
   body{background-attachment:scroll;}
 }
+
+/* ضمان ظهور الشعار والغلاف في Safari/Chrome حتى مع تعطيل CSS animations أو تأخرها */
+.logo-wrap img,
+.hero-photo{
+  opacity:1 !important;
+  animation:none !important;
+  transform:none !important;
+}
